@@ -48,14 +48,15 @@ sudo firewall-cmd --reload
 ```
 
 ## Set up Database with phpMyAdmin
-Start the database server.
-```
-sudo systemctl start mariadb.service
-```
 Set root password.
 ```
 sudo mysql_secure_installation
 ```
-Login to phpMyAdmin at 'http://yourserverip/phpMyAdmin' with the password you set earlier.
+Login to phpMyAdmin at http://yourserverip/phpMyAdmin with the password you set earlier.
+In the left sidebar, click on New. Enter a database name and choose utf8mb4_unicode_ci, then click Create.
+On the top navigation bar, click on Privileges. Click on Add User Account.
+Enter a username and password for the new account. Scroll down and click on Go. The database and user is now created.
+
+## Install Wordpress
 
 
