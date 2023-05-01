@@ -3,7 +3,7 @@ First you'll need to install Fedora Server 38. This is beyond the scope of this 
 
 
 
-
+https://docs.fedoraproject.org/en-US/fedora-server/virtualization/vm-install-diskimg-fedoraserver/
 
 ## SELinux
 First you'll need to disable SELinux.
