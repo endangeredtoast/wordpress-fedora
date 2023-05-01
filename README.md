@@ -58,5 +58,11 @@ On the top navigation bar, click on Privileges. Click on Add User Account.
 Enter a username and password for the new account. Scroll down and click on Go. The database and user is now created.
 
 ## Install Wordpress
+Run 'install-wordpress.sh' as root.
+```
+sudo ./install-wordpress.sh
+```
+
+
 
 
