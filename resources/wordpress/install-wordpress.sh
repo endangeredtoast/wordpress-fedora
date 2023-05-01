@@ -1,4 +1,3 @@
-# Download Wordpress, Set domain variable, copy nginx configuration.
 echo What is your website domain:
 read domain
 curl https://en-ca.wordpress.org/latest-en_CA.zip > /var/www/html/wordpress.zip
@@ -14,7 +13,7 @@ systemctl restart nginx.service
 # Setup Cache in Memory
 mkdir /var/www/html/$domain/wp-content/cache
 chown -R apache:apache /var/www/html/$domain/wp-content/cache
-echo 'tmpfs /var/www/html/$domain/wp-content/cache tmpfs nosuid,nodev,noatime,user,uid=42,gid=42 0 0' >> /etc/fstab
+echo tmpfs /var/www/html/$domain/wp-content/cache tmpfs nosuid,nodev,noatime,user,uid=42,gid=42 0 0 >> /etc/fstab
 systemctl daemon-reload
 
 
