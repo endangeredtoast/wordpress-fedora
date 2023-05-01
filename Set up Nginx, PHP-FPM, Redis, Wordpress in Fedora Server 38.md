@@ -37,3 +37,24 @@ sudo systemctl stop httpd.service
 ```
 sudo systemctl enable nginx.service php-fpm.service mariadb.service
 ```
+
+
+## Open Firewall Ports
+```
+sudo firewall-cmd --permanent --add-service=http
+sudo firewall-cmd --permanent --add-service=https
+sudo firewall-cmd --reload
+```
+
+## Set up Database with phpMyAdmin
+Start the database server.
+```
+sudo systemctl start mariadb.service
+```
+Set root password.
+```
+sudo mysql_secure_installation
+```
+Login to phpMyAdmin at 'http://yourserverip/phpMyAdmin' with the password you set earlier.
+
+
