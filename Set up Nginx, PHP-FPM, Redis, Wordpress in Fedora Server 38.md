@@ -35,8 +35,8 @@ sudo systemctl stop httpd.service
 
 ## Enable Services
 ```
-sudo systemctl enable nginx.service php-fpm.service mariadb.service
-sudo systemctl start nginx.service php-fpm.service mariadb.service
+sudo systemctl enable nginx.service php-fpm.service mariadb.service redis.service
+sudo systemctl start nginx.service php-fpm.service mariadb.service redis.service
 ```
 
 
