@@ -66,3 +66,7 @@ sudo ./install-wordpress.sh
 
 
 
+# Helpful Links
+https://www.linode.com/docs/guides/enabling-https-using-certbot-with-nginx-on-fedora/
+
+
