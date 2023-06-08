@@ -1,3 +1,4 @@
+dnf install php-pecl-apcu
 yum install ImageMagick ImageMagick-devel ImageMagick-perl php-opcache
 pecl install imagick redis apcu
 echo "extension=imagick.so" >> /etc/php.ini
