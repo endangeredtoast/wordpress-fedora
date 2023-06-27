@@ -7,7 +7,7 @@ First you'll need to install Ubuntu Server 22.04 LTS. This is beyond the scope o
 ## Install Required Software
 Now you'll need to install the necessary components.
 ```
-apt install nginx php8.1-fpm mariadb-server php-pear redis phpmyadmin iamgemagick imagemagick-doc php-imagick php-redis php-apcu php-intl smbclient php-smbclient imagemagick imagemagick-doc
+apt install nginx php8.1-fpm mariadb-server php-pear redis phpmyadmin imagemagick imagemagick-doc php-imagick php-redis php-apcu php-intl smbclient php-smbclient imagemagick imagemagick-doc
 ```
 
 ## Enable Services
