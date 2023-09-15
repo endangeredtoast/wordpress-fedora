@@ -35,7 +35,7 @@ Enter a username and password for the new account. Scroll down and click on Go. 
 ## Install Wordpress
 Run 'install-wordpress.sh' as root.
 ```
-sudo ./install-wordpress-fedora.sh
+sudo ./install-wordpress-ubuntu.sh
 ```
 
 
